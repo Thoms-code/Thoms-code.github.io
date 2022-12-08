@@ -1,0 +1,44 @@
+main {
+    background: linear-gradient(270deg, #879af2, #d3208b, #fda000);
+    background-size: 600% 600%;
+
+    -webkit-animation: background_move 7s ease infinite;
+    -moz-animation: background_move 7s ease infinite;
+    animation: background_move 7s ease infinite;
+
+    color: #FAFAFA;
+}
+
+@-webkit-keyframes background_move {
+    0%{background-position:0% 50%}
+    50%{background-position:100% 50%}
+    100%{background-position:0% 50%}
+}
+@-moz-keyframes background_move {
+    0%{background-position:0% 50%}
+    50%{background-position:100% 50%}
+    100%{background-position:0% 50%}
+}
+@keyframes background_move {
+    0%{background-position:0% 50%}
+    50%{background-position:100% 50%}
+    100%{background-position:0% 50%}
+}
+
+.intro {
+    text-shadow: 4px 4px 7px rgba(0,0,0,0.20);
+}
+.tagline {
+    text-shadow: 4px 4px 7px rgb(0 0 0 / 20%);
+}
+
+.icons-social a {
+	color: #FAFAFA;
+}
+.icons-social a i {
+    text-shadow: 4px 4px 7px rgb(0 0 0 / 20%);
+}
+
+.icons-social a svg path{
+	fill: #FAFAFA;
+}
